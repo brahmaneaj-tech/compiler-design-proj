@@ -1,0 +1,16 @@
+// Leg Day Volume Calculator
+KOSHISH workout;
+BHAR squat_weight = 120;
+GINTI squat_reps = 8;
+GINTI squat_sets = 3;
+
+BHAR legpress_weight = 200;
+GINTI legpress_reps = 10;
+GINTI legpress_sets = 4;
+
+BHAR total_leg_volume;
+total_leg_volume = (squat_weight * squat_reps * squat_sets) + (legpress_weight * legpress_reps * legpress_sets);
+
+DICHAK "--- Leg Day Summary ---";
+DICHAK "Total Volume Lifted (kg):";
+DICHAK total_leg_volume;

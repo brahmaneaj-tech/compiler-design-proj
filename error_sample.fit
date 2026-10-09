@@ -1,0 +1,13 @@
+// ====================================================
+//      FitnessScript (.fit) Error Test File
+// ====================================================
+
+BHAR weight;
+BHAR weight;                // Duplicate declaration error
+
+reps = 12;                 // Assignment to undeclared variable error
+
+KHORAK calories;
+calories = 2000 / 0;       // Division by zero runtime error
+
+DICHAK unassigned_var;     // Reference to undeclared variable error

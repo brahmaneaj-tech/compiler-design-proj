@@ -1,0 +1,49 @@
+// ====================================================
+//      FitnessScript (.fit) Sample Workout Program
+// ====================================================
+
+// Variable Declarations using domain keywords
+KOSHISH workout_name;
+BHAR bench_press_weight;
+GINTI reps_per_set;
+GINTI total_sets;
+KHORAK protein_grams;
+KHORAK calorie_intake;
+
+// Variable Assignments
+bench_press_weight = 85.5;
+reps_per_set = 10;
+total_sets = 4;
+protein_grams = 160;
+calorie_intake = 2500;
+
+// Arithmetic Calculations
+BHAR total_volume;
+total_volume = bench_press_weight * reps_per_set * total_sets;
+
+KHORAK protein_per_meal;
+protein_per_meal = protein_grams / 4;
+
+// Output Routine Logs using DICHAK
+DICHAK "----------------------------------------------------";
+DICHAK "           DAILY FITNESS & NUTRITION LOG            ";
+DICHAK "----------------------------------------------------";
+
+DICHAK "Bench Press Weight (kg):";
+DICHAK bench_press_weight;
+
+DICHAK "Total Reps Completed:";
+DICHAK reps_per_set * total_sets;
+
+DICHAK "Total Workout Volume Lifted (kg):";
+DICHAK total_volume;
+
+DICHAK "Daily Protein Goal (grams):";
+DICHAK protein_grams;
+
+DICHAK "Protein Target Per Meal (4 meals/day):";
+DICHAK protein_per_meal;
+
+DICHAK "----------------------------------------------------";
+DICHAK "Workout Session Completed Successfully!";
+DICHAK "----------------------------------------------------";

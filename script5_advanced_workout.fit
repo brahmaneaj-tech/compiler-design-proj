@@ -1,0 +1,12 @@
+// Advanced Push Day Tracker
+BHAR bench_press = 80;
+BHAR incline_db = 30;
+GINTI bench_sets = 4;
+GINTI incline_sets = 3;
+
+BHAR total_push_weight;
+total_push_weight = bench_press + (incline_db * 2); // DBs are per hand
+
+DICHAK "--- Advanced Push Day ---";
+DICHAK "Heaviest Combined Push Weight (kg):";
+DICHAK total_push_weight;

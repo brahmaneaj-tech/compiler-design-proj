@@ -1,0 +1,12 @@
+// Daily Nutrition and Macro Tracker
+KHORAK protein = 160;
+KHORAK carbs = 250;
+KHORAK fats = 65;
+
+KHORAK total_calories;
+// Protein: 4 kcal/g, Carbs: 4 kcal/g, Fats: 9 kcal/g
+total_calories = (protein * 4) + (carbs * 4) + (fats * 9);
+
+DICHAK "--- Daily Nutrition ---";
+DICHAK "Total Calories Consumed:";
+DICHAK total_calories;

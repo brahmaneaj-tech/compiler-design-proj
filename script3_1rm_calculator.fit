@@ -1,0 +1,14 @@
+// Estimated 1-Rep Max (1RM) Calculator (Adapted Formula)
+KOSHISH exercise;
+BHAR lifted_weight = 100;
+GINTI reps_done = 5;
+
+BHAR estimated_1rm;
+// Basic adaptation: Weight + (Weight * Reps / 30)
+estimated_1rm = lifted_weight + (lifted_weight * reps_done / 30);
+
+DICHAK "--- 1-Rep Max Estimate ---";
+DICHAK "Weight Lifted:";
+DICHAK lifted_weight;
+DICHAK "Estimated 1RM (kg):";
+DICHAK estimated_1rm;

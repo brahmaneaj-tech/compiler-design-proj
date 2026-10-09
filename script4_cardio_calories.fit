@@ -1,0 +1,17 @@
+// Cardio and Calorie Burn Calculator
+KOSHISH cardio_type;
+GINTI minutes_run = 45;
+KHORAK calories_per_minute = 12.5;
+
+KHORAK total_burned;
+total_burned = minutes_run * calories_per_minute;
+
+KHORAK daily_goal = 500;
+KHORAK remaining_goal;
+remaining_goal = daily_goal - total_burned;
+
+DICHAK "--- Cardio Session ---";
+DICHAK "Total Calories Burned:";
+DICHAK total_burned;
+DICHAK "Calories Remaining to Hit Goal:";
+DICHAK remaining_goal;
